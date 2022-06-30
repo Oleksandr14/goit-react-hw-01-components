@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 
-
 import style from './profile.module.css';
 
 // username, tag, location, avatar, stats
