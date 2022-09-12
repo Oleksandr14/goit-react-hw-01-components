@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { Box } from 'Box';
-import { Title, ListStats, ItemStats } from './Statistics.styled';
+import { Title, ListStats, ItemStats, Info } from './Statistics.styled';
 
 export const Statistics = ({ title, stats }) => {
   return (
@@ -21,8 +21,8 @@ export const Statistics = ({ title, stats }) => {
       <ListStats>
         {stats.map(({ id, label, percentage }) => (
           <ItemStats key={id}>
-            <span>{label}</span>
-            <span>{percentage}</span>
+            <Info>{label}</Info>
+            <Info>{percentage}</Info>
           </ItemStats>
         ))}
       </ListStats>

@@ -24,6 +24,9 @@ export const ItemStats = styled.li`
   align-items: center;
   flex-grow: 1;
   background-color: ${getRandomHexColor};
-  border: 1px solid;
   padding: ${p => p.theme.space[4]}px;
+`;
+
+export const Info = styled.span`
+  color: ${p => p.theme.colors.background};
 `;

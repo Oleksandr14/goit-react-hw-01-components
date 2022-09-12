@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Item, Name, IsOnline } from './FriendListItem.styled';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
@@ -8,4 +9,10 @@ export const FriendListItem = ({ avatar, name, isOnline }) => {
       <Name>{name}</Name>
     </Item>
   );
+};
+
+FriendListItem.propTypes = {
+  avatar: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  isOnline: PropTypes.bool.isRequired,
 };
