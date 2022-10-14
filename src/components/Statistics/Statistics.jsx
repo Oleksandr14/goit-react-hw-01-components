@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Box } from 'Box';
+import { Box } from 'components/Box';
 import { Title, ListStats, ItemStats, Info } from './Statistics.styled';
 
 export const Statistics = ({ title, stats }) => {

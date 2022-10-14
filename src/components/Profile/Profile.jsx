@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Box } from 'Box';
+import { Box } from 'components/Box';
 import {
   Avatart,
   UserName,

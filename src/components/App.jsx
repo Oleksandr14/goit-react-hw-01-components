@@ -1,4 +1,4 @@
-import { GlobalStyle } from 'GlobalStyle';
+import { GlobalStyle } from '../styles/GlobalStyle';
 
 import { Profile } from './Profile/Profile';
 import user from './Profile/user.json';

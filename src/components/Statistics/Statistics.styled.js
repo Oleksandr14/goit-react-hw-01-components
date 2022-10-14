@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { getRandomHexColor } from 'components/Utils/randomColor';
+import { getRandomHexColor } from 'Utils/randomColor';
 
 export const Title = styled.h2`
   display: inline-flex;
